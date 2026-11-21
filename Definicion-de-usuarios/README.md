@@ -2,7 +2,7 @@
 
 ## Perfiles de Usuario
 * **Usuario Principal (Estudiantes):** Jóvenes interesados en Ciencia, Tecnología, Ingeniería y Matemáticas (STEM) que buscan recursos interactivos, retos y seguimiento de aprendizaje desde su celular.
-* **Usuario Administrador / Docente (si aplica):** Encargado de gestionar contenidos, actividades y monitorear el progreso de los estudiantes.
+* **Usuario Administrador / Docente :** Encargado de gestionar contenidos, actividades y monitorear el progreso de los estudiantes.
 
 ## Necesidades Principales
 1. Acceder de forma rápida e intuitiva a contenidos y herramientas STEM desde dispositivos móviles.
