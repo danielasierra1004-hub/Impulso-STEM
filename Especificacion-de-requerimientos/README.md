@@ -1,14 +1,19 @@
-# Especificación de Requerimientos de Software (ERS)
+# Especificación de Requerimientos de Software (ERS) - STEM APP
 
 ## 1. Propósito del Sistema
-La aplicación móvil **Impulso STEM** tiene como objetivo fomentar el interés y el aprendizaje en disciplinas STEM mediante herramientas interactivas accesibles desde dispositivos móviles.
+La aplicación móvil **STEM APP** (desarrollada en el Instituto Tecnológico de Conkal - TecNM) tiene como objetivo fortalecer el aprendizaje y fomentar el interés en áreas STEM en estudiantes de nivel medio superior y superior, mediante módulos interactivos, cuestionarios y simuladores accesibles sin conexión a internet[cite: 7, 8, 9, 15].
 
 ## 2. Requerimientos Funcionales (RF)
-* **RF-01 Registro e inicio de sesión:** El usuario podrá crear una cuenta e iniciar sesión con sus credenciales.
-* **RF-02 Exploración de contenido STEM:** El usuario podrá consultar módulos, actividades o recursos educativos dentro de la app.
-* **RF-03 Seguimiento de progreso:** El usuario podrá visualizar su avance o resultados en las actividades realizadas.
+* **RF-01 Registro e inicio de sesión local:** El sistema permitirá al usuario registrarse y autenticar su acceso ingresando un **Usuario / Matrícula** y un **NIP de Acceso** numérico de 4 dígitos.
+* **RF-02 Selección de módulos educativos:** El sistema presentará un menú principal con acceso directo a cuatro áreas temáticas: **Matemáticas**, **Inglés**, **Detective Anti-Phishing** y **Brazo Robótico (Beta)**.
+* **RF-03 Resolución de cuestionarios interactivos:** En los módulos de Matemáticas e Inglés, el usuario podrá responder ejercicios de opción múltiple (álgebra, geometría, vocabulario técnico y gramática) con retroalimentación inmediata[cite: 8, 9, 13].
+* **RF-04 Simulación de ciberseguridad (Anti-Phishing):** El sistema permitirá al usuario analizar escenarios interactivos para identificar intentos de fraude y ciberamenazas[cite: 9, 13].
+* **RF-05 Simulación 3D de Brazo Robótico:** El sistema integrará un entorno visual en 3D donde el usuario podrá interactuar con principios de cinemática y lógica de control[cite: 9, 13].
+* **RF-06 Persistencia local de datos:** El sistema almacenará de forma local las credenciales y el avance de las actividades utilizando una base de datos **SQLite**.
 
 ## 3. Requerimientos No Funcionales (RNF)
-* **RNF-01 Compatibilidad:** Aplicación funcional en dispositivos móviles Android.
-* **RNF-02 Usabilidad:** Navegación sencilla e intuitiva con tiempos de respuesta rápidos.
-* **RNF-03 Disponibilidad:** Acceso estable a los contenidos y sincronización de datos de usuario.
+* **RNF-01 Operación Offline (Disponibilidad):** La aplicación debe operar al 100% de su funcionalidad sin requerir conexión activa a internet gracias al almacenamiento local en SQLite[cite: 15].
+* **RNF-02 Compatibilidad y Tecnología:** Desarrollada en JavaScript con el framework **React Native** y **Expo Go**, compatible con dispositivos móviles con **Android 10 (API 29) o superior**[cite: 10, 11].
+* **RNF-03 Rendimiento:** La transición entre el menú principal y cualquiera de los cuatro módulos educativos (incluyendo la carga de los simuladores) no debe superar los **2 segundos** en dispositivos de gama media[cite: 15].
+* **RNF-04 Usabilidad:** La interfaz utilizará tarjetas de colores distintivos sobre un tema oscuro de alto contraste, permitiendo al usuario acceder a cualquier actividad en un máximo de **2 toques** desde el inicio de sesión[cite: 7, 9, 10].
+* **RNF-05 Seguridad:** Las credenciales de acceso (Usuario/Matrícula y NIP) se resguardarán de forma aislada dentro del almacenamiento local protegido de la aplicación en el dispositivo[cite: 7, 15].
