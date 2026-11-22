@@ -8,3 +8,10 @@
 * **2. Metodología:** El proyecto siguió un proceso estructurado en cinco etapas: (1) identificación de la problemática académica, (2) planeación de contenidos en cuatro módulos educativos, (3) diseño de interfaz de usuario (UI) limpia con tarjetas de colores distintivos, (4) codificación en JavaScript empleando Visual Studio Code, React Native, Expo Go y base de datos local SQLite, y (5) pruebas de usabilidad con alumnos de preparatoria y del Tec de Conkal.
 * **3. Desarrollo:** La aplicación cuenta con un sistema de acceso mediante usuario/matrícula y NIP, y un menú principal que organiza cuatro módulos funcionales: **Matemáticas** (álgebra, geometría y conceptos clave), **Inglés** (vocabulario técnico y gramática), **Detective Anti-Phishing** (identificación de ciberamenazas y fraudes) y **Brazo Robótico en versión Beta** (simulador 3D de cinemática y lógica de control), operando de manera autónoma sin requerir conexión a internet.
 * **4. Resultados y Conclusiones:** Las pruebas técnicas y de usabilidad confirmaron el correcto funcionamiento offline de los cuestionarios y de los simuladores 3D y Anti-Phishing, así como una navegación fluida. Los estudiantes mostraron alto interés y motivación hacia el aprendizaje práctico, mientras que los docentes validaron su potencial como herramienta de apoyo en el aula. Como trabajo futuro se plantea ampliar los bancos de preguntas, optimizar el rendimiento del simulador 3D y preparar la publicación oficial en Google Play y App Store.
+* ---
+
+### Vista previa de la aplicación
+
+<p align="center">
+  <img src="stem%20app.jpeg" width="300" alt="Vista de STEM APP" />
+</p>
